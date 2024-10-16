@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Hero from "./components/Hero";
 
 const App = () => {
   return (
@@ -10,7 +11,11 @@ const App = () => {
           <Navbar />
         </div>
       </div>
-
+      <div className='flex items-center justify-center bg-primary px-6 sm:px-16'>
+        <div className='max-w-[1280px] w-full '>
+          <Hero />
+        </div>
+      </div>
       <div className='flex items-center justify-center px-6 bg-primary sm:px-16'>
         <div className='max-w-[1280px] w-full'>
           <Footer />
